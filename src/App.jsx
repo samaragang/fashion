@@ -4,6 +4,7 @@ import Promo from './components/promo/Promo'
 import Brands from './components/brands/Brands'
 import Arrivals from './components/arrivals/Arrivals'
 import Footer from './components/footer/Footer'
+import Sale from './components/sale/Sale'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Promo />
       <Brands />
       <Arrivals />
+      <Sale />
       <Footer />
     </div>
   )

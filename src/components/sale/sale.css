@@ -1,0 +1,50 @@
+.sale {
+  display: flex;
+  justify-content: center;
+}
+
+.sale__content {
+  padding: 140px 200px 0 90px;
+  background: linear-gradient(360deg, #E0C340 0%, #DFC23E 3.93%, #E1C441 7.23%, #E3C743 10.23%, #E4C542 13.14%, #E6C744 16.22%, #E7C845 19.84%, #E5C643 24.38%, #E6C945 31.00%, #E3C743 37.19%, #E9CA48 43.33%, #EDCE49 50.36%, #F0D44C 56.57%, #F4D84F 62.71%, #F6DA52 67.12%, #F7DB53 73.77%, #F9DD55 79.08%, #F9DF56 85.64%, #FAE157 93.50%, #F9DF56 100%);
+}
+
+.sale__title {
+  max-width: 600px;
+  font-size: 112px;
+  font-weight: 900;
+  line-height: 137.185px;
+  margin-bottom: 34px;
+
+}
+
+.highlight--sale__white::before {
+  width: 541.428px;
+  height: 130.373px;
+}
+
+.sale__text,
+.sale__date {
+  max-width: 650px;
+  font-size: 36.04px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52.316px;
+  letter-spacing: -0.721px;
+  margin-bottom: 40px;
+}
+
+.sale__date {
+  max-width: 480px;
+  margin-bottom: 52px;
+}
+
+.sale__btn {
+  padding: 27px 50px;
+  color: white;
+  background-color: black;
+  border-radius: 9px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.56px;
+}
