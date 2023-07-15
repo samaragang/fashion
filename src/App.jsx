@@ -6,6 +6,7 @@ import Arrivals from './components/arrivals/Arrivals'
 import Footer from './components/footer/Footer'
 import Sale from './components/sale/Sale'
 import Promotion from './components/promotion/Promotion'
+import Application from './components/application/Application'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Arrivals />
       <Sale />
       <Promotion />
+      <Application />
       <Footer />
     </div>
   )
