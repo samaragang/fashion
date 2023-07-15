@@ -26,7 +26,8 @@ const Header = () => {
                         <a className='nav__link' href="/">LIFESTYLE</a>
                      </li>
                      <li className='nav__item nav__item--btn'>
-                        <a className='nav__link--btn' href="/">SIGN UP</a>
+                        <span className="mas">SIGN UP</span>
+                        <button className='nav__link--btn' href="/">SIGN UP</button>
                      </li>
                   </ul>
                </nav>
