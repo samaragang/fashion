@@ -38,22 +38,15 @@
     align-items: center;
 }
 
-.nav__item--btn {
-    width: 134px;
-    height: 62px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 7px;
-    background-color: black;
-}
-
 .nav__link {
     color: var(--textColor);
 }
 
 .nav__link--btn {
+    border-radius: 7px;
+    background-color: black;
     color: white;
+    padding:15px 22px;
     font-size: 24px;
     letter-spacing: -0.72px;
 }

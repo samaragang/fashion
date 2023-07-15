@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer'
 import Sale from './components/sale/Sale'
 import Promotion from './components/promotion/Promotion'
 import Application from './components/application/Application'
+import Newsletter from './components/newsletter/Newsletter'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Sale />
       <Promotion />
       <Application />
+      <Newsletter />
       <Footer />
     </div>
   )
