@@ -1,0 +1,12 @@
+.promotion {
+  margin: 190px 0 200px;
+}
+
+.promotion__header {
+  margin-bottom: 100px;
+}
+
+.promotion__cards {
+  display: flex;
+  justify-content: space-between;
+}
