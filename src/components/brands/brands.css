@@ -1,0 +1,22 @@
+.brands {
+  height: 186px;
+  display: flex;
+  align-items: center;
+  background-color: var(--yellow);
+}
+
+.brands__items {
+  display: flex;
+  align-items: center;
+  column-gap: 120px;
+
+  padding: 0 74px;
+}
+
+.brands__item {
+  mix-blend-mode: multiply;
+}
+
+.brands__item:nth-child(4) {
+  margin-top: -17px;
+}
