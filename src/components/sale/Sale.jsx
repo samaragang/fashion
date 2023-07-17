@@ -19,9 +19,12 @@ const Sale = () => {
         <div className="sale__date">
           <strong> 1 June - 10 June 2021 </strong>
           <span> *Terms & Conditions apply</span>
-          
+
         </div>
-        <a href='/' className="sale__btn">SHOP NOW</a>
+        <div className="sale__btn">
+
+          <a href='/'>SHOP NOW</a>
+        </div>
       </div>
     </section>
   );

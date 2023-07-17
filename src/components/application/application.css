@@ -29,3 +29,12 @@
   display: flex;
   column-gap: 20px
 }
+
+.google-play__link,
+.app-store__link {
+  transition: transform .2s ease-in-out;
+}
+.google-play__link:hover,
+.app-store__link:hover {
+  transform: scale(1.12);
+}

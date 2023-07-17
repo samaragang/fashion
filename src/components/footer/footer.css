@@ -35,6 +35,14 @@
   column-gap: 14px;
 }
 
+.social__items a {
+  transition: transform .2s ease-in-out;
+}
+
+.social__items a:hover {
+  transform: scale(1.12);
+}
+
 .footer__links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -44,6 +52,14 @@
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+}
+
+.links__group a {
+  transition: color .2s ease-in-out;
+}
+
+.links__group a:hover {
+  color: white;
 }
 
 .links__title {

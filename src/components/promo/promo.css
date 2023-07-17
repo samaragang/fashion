@@ -77,4 +77,8 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: -1.5px;
+    transition: transform .2s ease-in-out;
+}
+.promo__btn-wrapper a:hover {
+    transform: scale(1.12);
 }

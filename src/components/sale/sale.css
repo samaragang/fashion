@@ -38,7 +38,11 @@
   margin-bottom: 52px;
 }
 
-.sale__btn {
+.sale__btn{
+  display: flex;
+}
+
+.sale__btn a {
   padding: 27px 50px;
   color: white;
   background-color: black;
@@ -47,4 +51,9 @@
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.56px;
+  transition: transform .2s ease-in-out;
+}
+
+.sale__btn a:hover {
+  transform: scale(1.12);
 }
